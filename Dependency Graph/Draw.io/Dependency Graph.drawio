@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-05-06T00:57:09.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="968iv6U9KWiNgqzyKfqP" version="21.2.8" type="device">
+  <diagram name="Page-1" id="BByczlV85fUTyLoh8Gwp">
+    <mxGraphModel dx="1434" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n7VhyId-fypqzcqniBqo-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="225" y="430" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_bGij1qhQPWaa52j1d-k-1" value="My.Core" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1;strokeWidth=2;" parent="n7VhyId-fypqzcqniBqo-22" vertex="1">
+          <mxGeometry x="160" y="220" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_bGij1qhQPWaa52j1d-k-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=1;strokeColor=#0046A1;endArrow=block;endFill=0;" parent="n7VhyId-fypqzcqniBqo-22" source="_bGij1qhQPWaa52j1d-k-2" target="_bGij1qhQPWaa52j1d-k-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bGij1qhQPWaa52j1d-k-2" value="My.Unity" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1;strokeWidth=2;" parent="n7VhyId-fypqzcqniBqo-22" vertex="1">
+          <mxGeometry x="160" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_bGij1qhQPWaa52j1d-k-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=#0046A1;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="n7VhyId-fypqzcqniBqo-22" source="_bGij1qhQPWaa52j1d-k-3" target="_bGij1qhQPWaa52j1d-k-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bGij1qhQPWaa52j1d-k-3" value="My.Football" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1;strokeWidth=2;" parent="n7VhyId-fypqzcqniBqo-22" vertex="1">
+          <mxGeometry x="270" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_bGij1qhQPWaa52j1d-k-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=#0046A1;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="n7VhyId-fypqzcqniBqo-22" source="_bGij1qhQPWaa52j1d-k-4" target="_bGij1qhQPWaa52j1d-k-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bGij1qhQPWaa52j1d-k-4" value="My.RPG" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1;strokeWidth=2;" parent="n7VhyId-fypqzcqniBqo-22" vertex="1">
+          <mxGeometry x="40" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="n7VhyId-fypqzcqniBqo-22" source="n7VhyId-fypqzcqniBqo-9" target="_bGij1qhQPWaa52j1d-k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-19" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="n7VhyId-fypqzcqniBqo-22" source="n7VhyId-fypqzcqniBqo-9" target="_bGij1qhQPWaa52j1d-k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="n7VhyId-fypqzcqniBqo-22" source="n7VhyId-fypqzcqniBqo-9" target="_bGij1qhQPWaa52j1d-k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-9" value="RPG Games" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1;strokeWidth=2;" vertex="1" parent="n7VhyId-fypqzcqniBqo-22">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="n7VhyId-fypqzcqniBqo-22" source="n7VhyId-fypqzcqniBqo-10" target="_bGij1qhQPWaa52j1d-k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-15" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="n7VhyId-fypqzcqniBqo-22" source="n7VhyId-fypqzcqniBqo-10" target="_bGij1qhQPWaa52j1d-k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-20" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="n7VhyId-fypqzcqniBqo-22" source="n7VhyId-fypqzcqniBqo-10" target="_bGij1qhQPWaa52j1d-k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7VhyId-fypqzcqniBqo-10" value="Football Apps" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1;strokeWidth=2;" vertex="1" parent="n7VhyId-fypqzcqniBqo-22">
+          <mxGeometry x="240" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
