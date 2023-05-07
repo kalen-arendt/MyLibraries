@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My.RPG", "My.RPG\My.RPG.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My.Football", "My.Football\My.Football.csproj", "{6BB2F420-9219-431C-B577-BDE334FABE84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My.RPG.Dialog", "My.RPG.Dialog\My.RPG.Dialog.csproj", "{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{6BB2F420-9219-431C-B577-BDE334FABE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB2F420-9219-431C-B577-BDE334FABE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB2F420-9219-431C-B577-BDE334FABE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,8 +43,10 @@ Global
 		SolutionGuid = {3EF4AD76-F421-479A-A74E-D05035354754}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		My.Core\My.Core.projitems*{6bb2f420-9219-431c-b577-bde334fabe84}*SharedItemsImports = 5
 		My.Core\My.Core.projitems*{92cf72d3-3b38-4da9-a9cb-19685a590c10}*SharedItemsImports = 5
 		My.Core\My.Core.projitems*{c2084a5a-43cd-4d64-9884-d3574252c5b0}*SharedItemsImports = 5
+		My.Core\My.Core.projitems*{c6b906df-fb0c-4374-b3b9-060c8bc2760d}*SharedItemsImports = 5
 		My.Core\My.Core.projitems*{d6b68ca1-0bcb-453a-a3d2-7024bce8e4ce}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
