@@ -9,6 +9,10 @@
     <Import_RootNamespace>My.Core</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Booleans\BooleanExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Collections\CollectionExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Generic\GenericExtensions.cs" />
+    <Compile Include="..\My.Core\Extensions\Strings\CoalesceStringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Singletons\ISingleton.cs" />
   </ItemGroup>
 </Project>

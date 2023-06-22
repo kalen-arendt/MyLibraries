@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <Import Project="..\My.Core\My.Core.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\My.RPG\My.RPG.csproj" />
+    <ProjectReference Include="..\My.Unity\My.Unity.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="UnityEngine">
