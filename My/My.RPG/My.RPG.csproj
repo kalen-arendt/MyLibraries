@@ -5,21 +5,4 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
-  <Import Project="..\My.Core\My.Core.projitems" Label="Shared" />
-
-  <ItemGroup>
-    <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputModule">
-      <HintPath>..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

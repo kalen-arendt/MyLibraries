@@ -1,4 +1,7 @@
-﻿using My.Core.Extensions.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
+
+using My.Core.Extensions.Generic;
 using My.Core.Extentions.Strings;
 
 using UnityEngine;
@@ -31,7 +34,6 @@ namespace My.Unity.Extentions.Debugging
 		public static bool ErrorIfNotFound<T>(this T obj) where T : Object
 		{
 			return obj.IfNull(() => Debug.LogError($"No Object of type `{obj.GetType().FullName}` was not found.", obj));
-
 		}
-	}
+   }
 }
