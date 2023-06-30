@@ -12,7 +12,37 @@
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\Booleans\BooleanExtentions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\Collections\CollectionExtentions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\Generic\GenericExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Numerics\IntExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Numerics\NumericExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\Area.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\IEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Calculators\FloatCalculator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\IEncodable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\MatchingEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\PointEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\ShapeEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\NearestPointExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\PointInTriangle.cs" />
+    <Compile Include="..\My.Core\Maths\Extensions\Vector2Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\Geometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Graphs\CrossDistanceMatrix.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Graphs\HungarianAlgorithm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Graphs\MinimalShift.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Matrices\FloatMatrix2x2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Matrices\Matrix.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Matrices\Matrix2x2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Matrices\SquareMatrix.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\Shape.cs" />
+    <Compile Include="..\My.Core\Maths\Calculators\CalculatorExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Calculators\IntCalculator.cs" />
+    <Compile Include="..\My.Core\Maths\Calculators\DoubleCalculator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Calculators\ICalculator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Graphs\IndexMatching.cs" />
     <Compile Include="..\My.Core\Extensions\Strings\CoalesceStringExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Singletons\ISingleton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Maths\Geometry\" />
   </ItemGroup>
 </Project>

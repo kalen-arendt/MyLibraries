@@ -1,6 +1,4 @@
-﻿using My.Core.Extensions.Booleans;
-
-namespace My.Core.Extentions.Strings
+﻿namespace My.Core.Extentions.Strings
 {
     public static class CoalesceStringExtensions
     {
