@@ -5,6 +5,10 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Game\" />
+  </ItemGroup>
+
   <Import Project="..\My.Core\My.Core.projitems" Label="Shared" />
 
 </Project>
