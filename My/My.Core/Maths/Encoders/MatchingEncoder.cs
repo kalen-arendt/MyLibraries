@@ -2,10 +2,8 @@
 {
    public class MatchingEncoder : IEncoder<IndexMatching, long>
    {
-
-      const int BITS_PER_INDEX = 4;
-
-      const int BIT_MASK = 0b1111;
+      private const int BITS_PER_INDEX = 4;
+      private const int BIT_MASK = 0b1111;
 
       public long Encode (IndexMatching value)
       {
@@ -15,7 +13,7 @@
 
          encoding |= (uint)size;
 
-         for (int i = 0; i < size; i++)
+         for (var i = 0; i < size; i++)
          {
             encoding |= (long)(value[i] & BIT_MASK) << (i * BITS_PER_INDEX);
          }
@@ -25,10 +23,10 @@
 
       public IndexMatching Decode (long encoding)
       {
-         int size = (int)(encoding & BIT_MASK);
+         var size = (int)(encoding & BIT_MASK);
          var matching = new int[size];
 
-         for (int i = 0; i < size; i++)
+         for (var i = 0; i < size; i++)
          {
             matching[i] = (int)((encoding >> (i * BITS_PER_INDEX)) & BIT_MASK);
          }

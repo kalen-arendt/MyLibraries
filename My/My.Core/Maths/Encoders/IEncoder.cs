@@ -2,8 +2,8 @@
 {
    public interface IEncoder<TObj, TEncoding>
    {
-      TEncoding Encode(TObj value);
+      TEncoding Encode (TObj value);
 
-      TObj Decode(TEncoding encoding);
+      TObj Decode (TEncoding encoding);
    }
 }

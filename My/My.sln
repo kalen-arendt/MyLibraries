@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Football", "My.Football\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.RPG.Dialog", "My.RPG.Dialog\My.RPG.Dialog.csproj", "{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My.Football.Unity", "My.Football.Unity\My.Football.Unity.csproj", "{8C54EBEF-7A4E-4869-9328-D23DC2292920}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6B906DF-FB0C-4374-B3B9-060C8BC2760D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C54EBEF-7A4E-4869-9328-D23DC2292920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C54EBEF-7A4E-4869-9328-D23DC2292920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C54EBEF-7A4E-4869-9328-D23DC2292920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C54EBEF-7A4E-4869-9328-D23DC2292920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

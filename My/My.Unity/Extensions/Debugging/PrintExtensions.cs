@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
@@ -11,7 +10,7 @@ namespace My.Unity.Extensions.Debugging
    {
       public static void Print<T> (this IEnumerable<T> collection, string name)
       {
-         int i = 0;
+         var i = 0;
          Debug.Log(
             collection.Aggregate(
                new StringBuilder().Append(name)

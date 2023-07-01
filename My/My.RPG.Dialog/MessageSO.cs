@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 
 
-namespace DialogSystem
+namespace My.RPG.Dialog
 {
-	[CreateAssetMenu(menuName = "DialogSO", fileName = "DialogSO")]
-	public class MessageSO: ScriptableObject, IMessage
-	{
-		[SerializeField] Message message;
+   [CreateAssetMenu(menuName = "DialogSO", fileName = "DialogSO")]
+   public class MessageSO : ScriptableObject, IMessage
+   {
+      [SerializeField] private Message message;
 
-		public string this[int msgIndex] => Message[msgIndex];
+      public string this[int msgIndex] => Message[msgIndex];
 
-		public IMessage Message => message;
-		public int Length => Message.Length;
-		public string[] GetMessages() => Message.GetMessages();
-	}
+      public IMessage Message => message;
+      public int Length => Message.Length;
+      public string[] GetMessages ()
+      {
+         return Message.GetMessages();
+      }
+   }
 }

@@ -58,7 +58,7 @@ namespace My.Unity.Extensions
       /// <param name="v">Object.</param>
       public static float SumSqrs (this Vector2 v)
       {
-         return (v.x* v.x) +(v.y * v.y);
+         return (v.x * v.x) + (v.y * v.y);
       }
 
       //	public static Vector2 RightAngleTo (this Vector2 a, Vector2 b) {

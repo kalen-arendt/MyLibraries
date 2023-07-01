@@ -1,23 +1,23 @@
+using My.Unity.Extensions.Debugging;
+
 using UnityEngine;
-using My.Unity.Extentions.Debugging;
-using My.RPG.Dialog;
 
-namespace DialogSystem
+namespace My.RPG.Dialog
 {
-    public class DialogActivator: BaseDialogActivator
-	{
-		[Header("Dialog")]
-		[SerializeField] DialogSO dialogSO;
+   public class DialogActivator : BaseDialogActivator
+   {
+      [Header("Dialog")]
+      [SerializeField] private DialogSO dialogSO;
 
 
-		private void Awake()
-		{
-			dialogSO.WarnIfNull($"{nameof(dialogSO)} is unassigned on {name}");
-		}
+      private void Awake ()
+      {
+         dialogSO.WarnIfNull($"{nameof(dialogSO)} is unassigned on {name}");
+      }
 
-		protected override void ActivateDialog()
-		{
-			DialogManager.Instance.SetDialog(dialogSO);
-		}
-	}
+      protected override void ActivateDialog ()
+      {
+         DialogManager.Instance.SetDialog(dialogSO);
+      }
+   }
 }

@@ -1,18 +1,20 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 
-namespace DialogSystem
+namespace My.RPG.Dialog
 {
-	[CreateAssetMenu(menuName = "DialogSO", fileName = "DialogSO")]
-	public class DialogSO: ScriptableObject, IDialogContainer
-	{
-		[SerializeField] DialogContainer dialog;
+   [CreateAssetMenu(menuName = "DialogSO", fileName = "DialogSO")]
+   public class DialogSO : ScriptableObject, IDialogContainer
+   {
+      [SerializeField] private DialogContainer dialog;
 
-		public int Length => Dialog.Length;
-		public IDialogMessage this[int dialogIndex] => Dialog[dialogIndex];
-		public IDialogMessage[] GetDialog() => Dialog.GetDialog();
+      public int Length => Dialog.Length;
+      public IDialogMessage this[int dialogIndex] => Dialog[dialogIndex];
+      public IDialogMessage[] GetDialog ()
+      {
+         return Dialog.GetDialog();
+      }
 
-		IDialogContainer Dialog => dialog;
-	}
+      private IDialogContainer Dialog => dialog;
+   }
 }

@@ -1,7 +1,4 @@
-﻿using System.Linq;
-using System.Numerics;
-
-namespace My.Core.Maths
+﻿namespace My.Core.Maths
 {
    public static class Geometryyy
    {

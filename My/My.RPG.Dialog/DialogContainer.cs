@@ -1,16 +1,20 @@
 ﻿using System.Collections.Generic;
+
 using UnityEngine;
 
 
-namespace DialogSystem
+namespace My.RPG.Dialog
 {
-	[System.Serializable]
-	public class DialogContainer: IDialogContainer
-	{
-		[SerializeField] List<DialogMessage> dialog;
+   [System.Serializable]
+   public class DialogContainer : IDialogContainer
+   {
+      [SerializeField] private List<DialogMessage> dialog;
 
-		public int Length => dialog.Count;
-		public IDialogMessage this[int dialogIndex] => dialog[dialogIndex];
-		public IDialogMessage[] GetDialog() => dialog.ToArray();
-	}
+      public int Length => dialog.Count;
+      public IDialogMessage this[int dialogIndex] => dialog[dialogIndex];
+      public IDialogMessage[] GetDialog ()
+      {
+         return dialog.ToArray();
+      }
+   }
 }

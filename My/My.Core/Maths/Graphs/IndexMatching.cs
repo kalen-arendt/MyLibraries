@@ -23,7 +23,7 @@ namespace My.Core.Maths
          get => matching;
          set {
             matching = new int[value.Length];
-            for (int i = 1; i < value.Length; i++)
+            for (var i = 1; i < value.Length; i++)
             {
                this[i] = value[i];
             }
@@ -72,7 +72,7 @@ namespace My.Core.Maths
 
       public void Empty ()
       {
-         for (int i = 0; i < Length; i++)
+         for (var i = 0; i < Length; i++)
          {
             this[i] = 0;
          }
@@ -81,12 +81,12 @@ namespace My.Core.Maths
       public void Randomize ()
       {
          this[0] = 0;
-         System.Random r = new System.Random();
+         var r = new System.Random();
 
          List<int> list = IndexList.CreateOrderedList( Length );
          int index;
 
-         for (int i = 1; i < Length; i++)
+         for (var i = 1; i < Length; i++)
          {
             index = r.Next() % list.Count;
             this[i] = list[index];
@@ -115,7 +115,7 @@ namespace My.Core.Maths
 
          if (b == null)
          {
-            throw new ArgumentNullException (nameof(b));
+            throw new ArgumentNullException(nameof(b));
          }
 
          if (a.Length != b.Length)
@@ -194,10 +194,10 @@ namespace My.Core.Maths
       /// Return a <see cref="List{int}"/> with values [1,10] :: [0,10]-keeper
       /// </summary>
       /// <returns></returns>
-      public static List<int> CreateOrderedList(int size)
+      public static List<int> CreateOrderedList (int size)
       {
          var list = new List<int>();
-         for (int i = 1; i < size; i++)
+         for (var i = 1; i < size; i++)
          {
             list.Add(i);
          }

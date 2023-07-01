@@ -21,9 +21,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\MatchingEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\PointEncoder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Encoders\ShapeEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\IPositional.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\NearestPointExtension.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\PointInTriangle.cs" />
-    <Compile Include="..\My.Core\Maths\Extensions\Vector2Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Numerics\Vector2Extensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\Geometry.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Graphs\CrossDistanceMatrix.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Graphs\HungarianAlgorithm.cs" />
@@ -41,8 +42,5 @@
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Graphs\IndexMatching.cs" />
     <Compile Include="..\My.Core\Extensions\Strings\CoalesceStringExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Singletons\ISingleton.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Maths\Geometry\" />
   </ItemGroup>
 </Project>
