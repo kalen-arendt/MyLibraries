@@ -35,6 +35,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Matrices\SquareMatrix.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\Point.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Geometry\Shape.cs" />
+    <Compile Include="..\My.Core\Patterns\IReversibleAction.cs" />
     <Compile Include="..\My.Core\Maths\Calculators\CalculatorExtentions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Maths\Calculators\IntCalculator.cs" />
     <Compile Include="..\My.Core\Maths\Calculators\DoubleCalculator.cs" />
